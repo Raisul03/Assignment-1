@@ -102,6 +102,7 @@ main {
     margin-top: 75px;
     height: 1330px;
     background-color: rgba(13, 19, 33, 0.02);
+    border-radius: 15px;
 }
 
 /* Inside border */
@@ -112,7 +113,7 @@ main {
 }
 
 /* Top information */
-.reason{
+.reason {
     margin-bottom: 50px;
 }
 
@@ -131,28 +132,37 @@ main {
 }
 
 /* 3-parts */
-.web1, .web2, .web3{
+.web1,
+.web2,
+.web3 {
     display: flex;
     justify-content: space-between;
     padding: 48px 48px;
 }
-.web1, .web2, .web3 > h3{
+
+.web1,
+.web2,
+.web3>h3 {
     font-size: 24px;
     font-weight: 700;
     text-align: left;
 }
-.web1, .web2, .web3 > p{
+
+.web1,
+.web2,
+.web3>p {
     font-size: 16px;
     font-weight: 400;
     text-align: left;
 }
 
-.web1, .web2{
+.web1,
+.web2 {
     margin-bottom: 40px;
 }
 
 /* Button portion for why web dev */
-.primarybtn{
+.primarybtn {
     width: 150px;
     height: 48px;
     background-color: white;
@@ -167,34 +177,106 @@ main {
 
 /* My inspiration portion starts */
 
-.inspiration-border{
+.inspiration-border {
     height: 850px;
     margin-top: 90px;
     text-align: center;
 }
-.inspiration-border h3{
+
+.inspiration-border h3 {
     font-size: 32px;
     font-weight: 800;
     margin-top: 0;
     margin-bottom: 24px;
 }
-.inspiration-border p{
+
+.inspiration-border p {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 50px;
 }
 
-.vidborder{
+.vidborder {
     border: 1px solid grey;
     max-width: 1140px;
     height: 610px;
     border-radius: 15px;
-    /* padding: 32px; */
 }
-.video{
+
+.video {
     width: 1076px;
     height: 550px;
     border-radius: 50px;
     padding: 35px;
 }
+
 /* My inspiration portion ends */
+
+
+/* My current target starts */
+
+.target-border {
+    margin-top: 150px;
+    height: 460px;
+}
+
+.target {
+    margin-top: 0px;
+    text-align: center;
+    padding: 0px 150px;
+}
+
+.target h3 {
+    margin-top: 0;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.target p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.HCJ {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.b1, .b2, .b3 {
+    border-radius: 15px;
+    width: 365px;
+    max-height: 500px;
+}
+
+.b1 {
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+
+}
+
+.b2 {
+    background-color: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+}
+
+.b3 {
+    background-color: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+}
+
+.HCJ a{
+    font-size: 16px;
+    font-weight: 700;
+    color:rgb(13, 19, 33);
+}
+.HCJ h4{
+    font-size: 24px;
+    font-weight: 800;
+}
+.HCJ p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* My current target starts */
