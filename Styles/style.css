@@ -41,7 +41,7 @@
 .banner{
     width: 100%;
     min-height: 650px;
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url(../assets/Hero-bg.png);
    
 }
 
