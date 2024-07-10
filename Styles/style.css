@@ -165,3 +165,36 @@ main {
 /* Why Web Development portion ends */
 
 
+/* My inspiration portion starts */
+
+.inspiration-border{
+    height: 850px;
+    margin-top: 90px;
+    text-align: center;
+}
+.inspiration-border h3{
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.inspiration-border p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.vidborder{
+    border: 1px solid grey;
+    max-width: 1140px;
+    height: 610px;
+    border-radius: 15px;
+    /* padding: 32px; */
+}
+.video{
+    width: 1076px;
+    height: 550px;
+    border-radius: 50px;
+    padding: 35px;
+}
+/* My inspiration portion ends */
