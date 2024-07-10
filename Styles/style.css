@@ -41,7 +41,7 @@
 
 /* Banner-portion starts*/
 .banner {
-    width: 100%;
+    max-width: 100%;
     min-height: 650px;
     background-image: url(../assets/Hero-bg.png);
 
@@ -290,7 +290,7 @@ main {
 
 /* Support portion starts */
 
-.Support{
+.Support {
     margin-top: 70px;
     height: 313px;
     display: flex;
@@ -299,13 +299,15 @@ main {
     align-items: flex-start;
     padding: 64px 48px 64px 48px;
     background-image: url(../assets/handshake.jpg);
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: overlay;
     border-radius: 20px;
+    margin-bottom: 80px;
 }
-.internal{
+
+.internal {
     height: 185px;
     width: 1044px;
     display: flex;
@@ -316,22 +318,24 @@ main {
     margin: 64px 48px 64px 48px;
 }
 
-.opinion{
+.opinion {
     color: white;
 }
-.opinion h3{
+
+.opinion h3 {
     margin-top: 0px;
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 16px;
 }
-.opinion p{
+
+.opinion p {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 24px;
 }
 
-.feedback{
+.feedback {
     width: 548px;
     height: 57px;
     border-radius: 5px;
@@ -340,8 +344,9 @@ main {
     border-color: none;
     padding-left: 15px;
 }
-.feedfront{
-    width:120px;
+
+.feedfront {
+    width: 120px;
     height: 60px;
     border-radius: 5px;
     background-color: white;
@@ -351,3 +356,33 @@ main {
 }
 
 /* Support portion ends */
+
+
+/* Footer section starts here */
+
+footer {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.foot {
+    width: 1140px;
+    height: 36px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.commitment {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
